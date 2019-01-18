@@ -12,6 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".UI.viewgroup.RecyclerView.LinearLayoutManagerActivity"></activity>
+        <activity android:name=".UI.layout.LayoutActivity" />
+        <activity android:name=".UI.UIActivity" />
+        <activity android:name=".TopicBaseActivity" />
+        <activity android:name=".UI.viewgroup.ViewGroupActivity" />
+        <activity android:name=".UI.viewgroup.RecyclerView.RecyclerViewActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
